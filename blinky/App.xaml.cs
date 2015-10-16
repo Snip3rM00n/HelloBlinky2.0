@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+	Hello Blinky 2.0
+	By: Anthony McKeever (GitHub: Snip3rM00n)
+	
+	A varient of the Microsoft IoT Introductory project "HelloBlinky".
+	This version allows the user to change the blink interval on the fly using the app's UI.
+	Requires Raspberry Pi 2 - Connect video to see UI.
+	
+	File: App.xaml.cs - Default Windows Universal App version.  Microsoft owns this code.
+	
+	Coded In: C# (.NET Framework - Windows Uinversal App)
+*/
+
+using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;

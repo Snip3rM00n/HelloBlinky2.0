@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+	Hello Blinky 2.0
+	By: Anthony McKeever (GitHub: Snip3rM00n)
+	
+	A varient of the Microsoft IoT Introductory project "HelloBlinky".
+	This version allows the user to change the blink interval on the fly using the app's UI.
+	Requires Raspberry Pi 2 - Connect video to see UI.
+	
+	File: MainPage.xaml.cs - The code that powers the LED & UI.
+	
+	Coded In: C# (.NET Framework - Windows Uinversal App)
+*/
+
+using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
@@ -72,7 +85,7 @@ namespace blinky
 			try
 			{
 				nMs = Convert.ToInt32(newMS.Text);
-				GpioStatus.Text = "New timer time set!";
+				GpioStatus.Text = "New timer interval set!";
 			}
 			catch
 			{
